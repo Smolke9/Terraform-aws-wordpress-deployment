@@ -49,7 +49,7 @@ wordpress-terraform/
 ```
 
 ---
-
+![screenshot](./screenshot/2.png)
 ## 🧩 Step 1: Clone Repository
 
 ```bash
@@ -68,7 +68,7 @@ provider "aws" {
 ```
 
 ---
-
+![screenshot](./screenshot/1.png)
 ## 🔐 Step 3: Security Group (`security.tf`)
 
 Allows:
@@ -179,13 +179,16 @@ yes
 ```
 
 ---
+![screenshot](./screenshot/3.png)
+![screenshot](./screenshot/4.png)
+![screenshot](./screenshot/5.png)
 
 ## 🌐 Step 8: Access WordPress
 
 ```bash
 terraform output
 ```
-
+![screenshot](./screenshot/6.png)
 Open in browser:
 ```
 http://EC2_PUBLIC_IP
@@ -194,7 +197,8 @@ http://EC2_PUBLIC_IP
 🎉 WordPress setup screen will appear!
 
 ---
-
+![screenshot](./screenshot/7.png)
+![screenshot](./screenshot/8.png)
 ## 🔐 WordPress Database Details
 
 ```
@@ -205,15 +209,17 @@ Host: localhost
 ```
 
 ---
-
+![screenshot](./screenshot/9.png)
 ## 🔑 SSH Access
-
+![screenshot](./screenshot/10.png)
 ```bash
 chmod 400 ubuntuu.pem
 ssh -i ubuntuu.pem ubuntu@EC2_PUBLIC_IP
 ```
 
 ---
+## Wordpress Intance Mysql Database
+![screenshot](./screenshot/11.png)
 
 ## 🧹 Cleanup
 
